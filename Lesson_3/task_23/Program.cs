@@ -4,18 +4,18 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-// try
-// {
-//     Console.Write("Введите число: ");
-//     int num = Convert.ToInt32(Console.ReadLine());
-//     for (int i = 1; i <= num; i++)
-// {
-//     Console.Write($"{i * i * i} ");
-// }
-// }
+try
+{
+    Console.Write("Введите число: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+    for (int i = 1; i <= num; i++)
+{
+    Console.Write($"{i * i * i} ");
+}
+}
 
-//  catch
-// {
-//     Console.WriteLine("Нужно ввести целое число. Повторите попытку, введите целое число.");
-// }
+ catch
+{
+    Console.WriteLine("Нужно ввести целое число. Повторите попытку, введите целое число.");
+}
 
